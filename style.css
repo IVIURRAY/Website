@@ -1,0 +1,63 @@
+/*Navigation bar styling*/
+.navbar a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.navbar li {
+  display: inline;
+}
+
+/*Jumbotron Styling*/
+.jumbotron {
+  height: 700px;
+  background-image: url('./img/mountain.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
+  vertical-align: top;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/*Homepage Grid Styling*/
+.neighborhood-guides {
+    /*background-color:#efefef;*/
+    border-bottom:1px solid #dbdbdb;
+    align-content: center;
+}
+
+.neighborhood-guides p {
+    font-size:15px;
+    margin-bottom:13px;
+}
+
+/*Thumbnail/ Quick info styling*/
+.thumbnail img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.footer {
+    background-color: #EDE3DE;
+}
