@@ -1,0 +1,31 @@
+<facts>
+	<fact>
+		<description>Born in Essex</description>
+		<image>./img/essex-sign.png</image>
+	</fact>
+
+	<fact>
+		<description>Loughborough Educated</description>
+		<image>./img/lboro.png</image>
+	</fact>
+
+	<fact>
+		<description>Loves Sports</description>
+		<image>./img/sports.png</image>
+	</fact>
+
+	<fact>
+		<description>Python is the Best!</description>
+		<image>./img/python.png</image>
+	</fact>
+
+	<fact>
+		<description>Loves to Travel</description>
+		<image>./img/travel.png</image>
+	</fact>
+
+	<fact>
+		<description>Algorithmic Trading</description>
+		<image>./img/trading.png</image>
+	</fact>
+</facts>
