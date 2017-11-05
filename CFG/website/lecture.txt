@@ -1,0 +1,74 @@
+
+
+CSS
+	CSS for cross browser
+	CSS for different mobile devices
+	Modularity - doing things again
+
+Twitter Bootstrap
+	Developed and maintained by twitter
+	Updates with changes to web dev frameworks
+	Documentation and examples
+
+	EXAMPLE - https://getbootstrap.com/docs/3.3/getting-started/
+	Docs - https://getbootstrap.com/docs/3.3/css/
+
+Example - Table striped and remove the class (see difference)
+https://codepen.io/dianaklee/pen/yYVbzv
+https://getbootstrap.com/docs/3.3/css/#tables
+
+
+TASKS 
+
+Complete Website - http://code61.github.io/bootstrap_exercise/ 
+Git - https://github.com/code61/bootstrap_exercise
+
+Add containers around each page content.
+Inside the jumbotron
+Inside the buss
+Inside the mission
+
+Instead of the block quote we should use mark
+Add class=“lead” to the bottom text
+Add class=“btn bin-success” to the send button
+Add class=“btn btn-lg” to social media buttons
+
+Instead of image-circle we’re going to use img-thumbnail
+buzz class=“text-centre”
+
+
+*image responsive dose not work*
+
+Create a new file called main.css
+#social-buttons button { 
+	color: white;
+}
+
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5; 
+}
+
+.btn-facebook { 
+	background-color: #4868ac; 
+	border-color: #314776;
+}
+
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26;
+}
+
+.jumbotron {
+	min-height: 600px;
+	background-image: url('images/fruit-and-veg.jpg');
+ 	background-size: cover; 
+ 	background-attachment:  xed;
+}
+
+#mission {
+	background-color: rgb(32, 35, 41);
+	color: #ddd;
+}
+
+add a nav bar - couldn’t get to work

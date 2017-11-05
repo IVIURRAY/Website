@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- To let bootstrap know this is the page size -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sam's Sarnies</title>
+
+  <!-- LIKE TO BOOTSTRAP FILE -->
+  <link href='dist/css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="main.css">    <!--  main.css -->
+  <!-- <script type="text/javascript" src="dist/js/bootstrap.min.js"></script> -->
+
+
+</head>
+
+<body>
+
+<!--       <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="">Sam's Sarnies</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
+          </div>
+    </nav> -->
+
+
+
+  <div class='jumbotron'>
+
+    <div class="container">                                 <!-- Container -->
+      <div class="row">                                      <!-- row-open -->
+        <div class="col-sm-8">                               <!-- col-8 -->
+          <h1>Healthy sandwiches for your team</h1>
+        </div>                                               <!-- col-close -->
+        <div class="col-sm-4">                               <!-- col-4 -->
+          <img src='images/sandwich.png' class='img-responsive'>          <!-- img-responsive -->
+        </div>                                               <!-- col-close -->
+      </div>                                                 <!-- row-close -->
+        <form role='form'>
+          <label for="email">Find out more</label>
+          <input type="text" name="email" >
+          <button class="btn btn-success" type="submit">Send</button>           <!-- Btn success -->
+        </form>
+    </div>                                                  <!-- container-close --> 
+
+  </div>
+
+  <div id="buzz" class="text-center">                       <!-- class text-center -->
+    <div class="container">                                 <!-- Container -->
+      <h2><small>The Buzz</small><br />What are people saying?</h2>
+        <div class="row">                                   <!-- row-open -->
+          <div class="col-sm-4">                            <!-- col-class -->  
+            <img src='images/person.jpg' class="img-thumbnail">                             <!-- img-thumbnail -->
+            <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+            <small><mark>Mr Smith, Professional sandwich taster</mark></small>
+          </div>
+          <div class="col-sm-4">                            <!-- col-class -->
+            <img src='images/person.jpg' class="img-thumbnail">                             <!-- img-thumbnail -->
+            <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
+            <small><mark>Miss McAdam, CEO Workplace Analytics</mark></small>
+          </div>
+          <div class="col-sm-4">                            <!-- col-class -->
+            <img src='images/person.jpg' class="img-thumbnail">                              <!-- img-thumbnail -->
+            <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+            <small><mark>Miss Blah, CEO</mark></small>
+          </div> 
+        </div>                                              <!-- row-close -->
+    </div>                                                  <!-- Container-close -->
+  </div>
+
+
+
+  <div id="mission" class="text-center">                                                                             <!-- text-center -->
+    <div class="container">                                                                                         <!-- Container-open -->
+      <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
+
+      <p class="lead">We believe that healthy workers are more productive workers.</p>                                    <!-- lead class -->
+      <p class="lead">Providing your team with a healthy lunch each day improves both motivation and morale.</p>          <!-- lead class -->
+      <p class="lead">We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>     <!-- lead class -->
+
+      <div id='social-buttons'>
+        <button class='btn-twitter btn-lg'>Twitter</button>                                                           <!-- add btn-lg -->
+        <button class='btn-facebook btn-lg'>Facebook</button>                                                         <!-- add btn-lg -->
+        <button class='btn-pinterest btn-lg'>Pinterest</button>                                                       <!-- add btn-lg -->
+      </div>
+    </div>                                                                                                            <!-- Container-close -->
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+
+
+<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
+</html>
